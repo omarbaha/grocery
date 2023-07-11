@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include grocery *.css
+recursive-include grocery *.csv
+recursive-include grocery *.html
+recursive-include grocery *.ico
+recursive-include grocery *.js
+recursive-include grocery *.json
+recursive-include grocery *.md
+recursive-include grocery *.png
+recursive-include grocery *.py
+recursive-include grocery *.svg
+recursive-include grocery *.txt
+recursive-exclude grocery *.pyc
